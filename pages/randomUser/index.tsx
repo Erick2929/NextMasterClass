@@ -41,10 +41,10 @@ const RandomUser = () => {
               key={value.id.value}
               name={value.name}
               profilePic={value.picture}
+              email={value.email}
             />
           );
         })}
-        {/* <Button onClick={() => console.log(userRandomData)}>DEbug</Button> */}
       </Stack>
     </Box>
   );
