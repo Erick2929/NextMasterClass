@@ -4,7 +4,7 @@ import { Box, Stack } from "@mui/system";
 import React, { useEffect, useState } from "react";
 
 const generarUsuario = async () => {
-  const url = "https://randomuser.me/api/?results=5";
+  const url = "https://randomuser.me/api/?results=50";
   const respuesta = await fetch(url);
   const data = await respuesta.json();
   console.log("data: ", data?.results);
